@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuARA">
+    <property name="title">
+     <string>ARA</string>
+    </property>
+    <addaction name="action_renci_Sorgula"/>
+    <addaction name="actionStaj_D_nemi_Sorgula"/>
+    <addaction name="actionStaj_Yeri_Sorgula"/>
+   </widget>
+   <widget class="QMenu" name="menu_IKI">
+    <property name="title">
+     <string>ÇIKIŞ</string>
+    </property>
+   </widget>
+   <addaction name="menuARA"/>
+   <addaction name="menu_IKI"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_renci_Sorgula">
+   <property name="text">
+    <string>Öğrenci Sorgula</string>
+   </property>
+  </action>
+  <action name="actionStaj_D_nemi_Sorgula">
+   <property name="text">
+    <string>Staj Dönemi Sorgula</string>
+   </property>
+  </action>
+  <action name="actionStaj_Yeri_Sorgula">
+   <property name="text">
+    <string>Staj Yeri Sorgula</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
